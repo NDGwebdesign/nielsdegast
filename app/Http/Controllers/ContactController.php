@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -27,7 +29,31 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'name'    => 'required|string|max:255',
+            'email'   => 'required|email|max:255',
+            'subject' => 'required|string|max:255',
+            'content' => 'required|string',
+        ]);
+
+        // 1. Opslaan in database
+        $contact = Contact::create($validated);
+
+        // 2. Mail versturen
+        Mail::send('emails.contact-admin', $validated, function ($mail) use ($validated) {
+            $mail->to('info@nielsdegast.nl')
+                 ->subject('Nieuw contactbericht: ' . $validated['subject'])
+                 ->replyTo($validated['email']);
+        });
+
+        // 3️⃣ Bevestigingsmail naar GEBRUIKER
+        Mail::send('emails.contact-user', $validated, function ($mail) use ($validated) {
+            $mail->to($validated['email'])
+                 ->subject('We hebben je bericht ontvangen');
+        });
+
+
+        return back()->with('success', 'Je bericht is succesvol verzonden!');
     }
 
     /**

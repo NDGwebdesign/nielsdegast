@@ -10,6 +10,6 @@ class Contact extends Model
         'name',
         'email',
         'subject',
-        'message',
+        'content',
     ];
 }

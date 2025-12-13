@@ -14,10 +14,7 @@ Route::get('/idee', function () {
 
 Route::view('/about', 'main.about')->name('aboutme');
 
-Route::resource('contact', ContactController::class)->only(['create', 'store'])->names([
-    'create' => 'contact.create',
-    'store' => 'contact.store',
-]); 
+Route::resource('contact', ContactController::class);
 
 //admin routes
 Route::middleware(['auth', 'admin'])->group(function () {
