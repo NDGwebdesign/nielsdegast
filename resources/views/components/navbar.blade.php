@@ -8,8 +8,8 @@
     <!-- Links -->
     <div class="nav-links hidden md:flex gap-8">
         <a href="{{ route('home') }}" class="nav-link relative text-white font-medium hover:text-red-600">Home</a>
-        <a href="{{ route('idee') }}" class="nav-link relative text-white font-medium hover:text-red-600">Idee</a>
-        <a href="{{ route('aboutme') }}" class="nav-link relative text-white font-medium hover:text-red-600">Aboutme</a>
+        {{-- <a href="{{ route('idee') }}" class="nav-link relative text-white font-medium hover:text-red-600">Idee</a> --}}
+        <a href="{{ route('aboutme') }}" class="nav-link relative text-white font-medium hover:text-red-600">Over mij</a>
         <a href="{{ route('contact.index') }}"
             class="nav-link relative text-white font-medium hover:text-red-600">Contact</a>
     </div>
@@ -33,8 +33,8 @@
     <div id="mobileMenu"
         class="absolute top-full left-0 right-0 bg-black/95 flex flex-col hidden text-center md:hidden">
         <a href="{{ route('home') }}" class="py-4 border-b border-gray-800">Home</a>
-        <a href="{{ route('idee') }}" class="py-4 border-b border-gray-800">Idee</a>
-        <a href="{{ route('aboutme') }}" class="py-4 border-b border-gray-800">Aboutme</a>
+        {{-- <a href="{{ route('idee') }}" class="py-4 border-b border-gray-800">Idee</a> --}}
+        <a href="{{ route('aboutme') }}" class="py-4 border-b border-gray-800">Over mij</a>
         <a href="{{ route('contact.index') }}" class="py-4">Contact</a>
     </div>
 </nav>

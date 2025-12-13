@@ -1,16 +1,18 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+//main site routes
 Route::get('/', function () {
     return view('main.home');
 })->name('home');
 
-Route::get('/idee', function () {
-    return view('main.idee');
-    })->name('idee');
+// Route::get('/idee', function () {
+//     return view('main.idee');
+//     })->name('idee');
 
 Route::view('/about', 'main.about')->name('aboutme');
 
