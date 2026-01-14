@@ -96,17 +96,17 @@
             <h2 class="text-3xl font-bold text-white text-center mb-8">Volg Mij</h2>
             <div class="social-grid grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 <a href="https://discord.gg/PPVBhBemSf"
-                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#7289da] text-white hover:-translate-y-1 transition-transform">
+                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#7289da] text-white hover:-translate-y-1 transition-transform shadow-lg hover:shadow-[#7289da]">
                     <i class="fab fa-discord text-2xl"></i>
                     <span>Join Discord</span>
                 </a>
                 <a href="https://www.tiktok.com/@nielsdegastyt"
-                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-black text-white hover:-translate-y-1 transition-transform">
+                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-black text-white hover:-translate-y-1 transition-transform shadow-lg hover:shadow-black">
                     <i class="fab fa-tiktok text-2xl"></i>
                     <span>TikTok</span>
                 </a>
                 <a href="https://open.spotify.com/artist/6EyPJVn7KN6SIkhtiMY0fT"
-                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#1DB954] text-white hover:-translate-y-1 transition-transform">
+                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#1DB954] text-white hover:-translate-y-1 transition-transform shadow-lg hover:shadow-[#1DB954]">
                     <i class="fab fa-spotify text-2xl"></i>
                     <span>Spotify</span>
                 </a>

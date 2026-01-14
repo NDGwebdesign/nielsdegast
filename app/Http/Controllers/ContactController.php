@@ -61,7 +61,8 @@ class ContactController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $contact = Contact::findOrFail($id);
+        return view('admin.contacts.show', compact('contact'));
     }
 
     /**
@@ -85,6 +86,15 @@ class ContactController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $contact = Contact::findOrFail($id);
+        $contact->delete();
+
+        return redirect()->route('admin.contacts.index')->with('success', 'Contactbericht succesvol verwijderd.');
+    }
+
+    public function adminIndex()
+    {
+        $contacts = Contact::orderBy('created_at', 'desc')->paginate(10);
+        return view('admin.viewcontact', compact('contacts'));
     }
 }

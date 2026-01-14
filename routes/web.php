@@ -14,7 +14,9 @@ Route::get('/', function () {
 //     return view('main.idee');
 //     })->name('idee');
 
-Route::view('/about', 'main.about')->name('aboutme');
+Route::get('/about', function () {
+    return view('main.about');
+})->name('aboutme');
 
 Route::resource('contact', ContactController::class);
 
@@ -23,6 +25,7 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/admin', function () {
         return view('admin.dashboard');
     })->name('admin.dashboard');
+    Route::get('/admin/contacts', [ContactController::class, 'adminindex'])->name('admin.contacts.index');
 });
 
 Route::middleware('auth')->group(function () {

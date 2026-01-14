@@ -31,25 +31,25 @@
 
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Card -->
-                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform">
+                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform hover:shadow-md hover:shadow-red-600">
                     <i class="fas fa-gamepad text-4xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold mb-2">Gaming</h3>
                     <p class="text-gray-300">Vooral Minecraft, maar ook andere games</p>
                 </div>
 
-                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform">
+                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform hover:shadow-md hover:shadow-red-600">
                     <i class="fas fa-code text-4xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold mb-2">Programmeren</h3>
                     <p class="text-gray-300">Websites & applicaties bouwen</p>
                 </div>
 
-                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform">
+                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform hover:shadow-md hover:shadow-red-600">
                     <i class="fas fa-camera text-4xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold mb-2">Fotografie</h3>
                     <p class="text-gray-300">Momenten vastleggen</p>
                 </div>
 
-                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform">
+                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform hover:shadow-md hover:shadow-red-600">
                     <i class="fas fa-ferris-wheel text-4xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold mb-2">Pretparken</h3>
                     <p class="text-gray-300">Avontuur & adrenaline</p>
@@ -63,20 +63,20 @@
                 Mijn YouTube Avontuur
             </h2>
 
-            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center">
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto ">
+                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform hover:shadow-md hover:shadow-red-600"">
                     <i class="fas fa-play text-3xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold">Start</h3>
                     <p class="text-gray-300 mt-2">2021</p>
                 </div>
 
-                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center">
+                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform hover:shadow-md hover:shadow-red-600"">
                     <i class="fas fa-video text-3xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold">Content</h3>
                     <p class="text-gray-300 mt-2">Gaming & Entertainment</p>
                 </div>
 
-                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center">
+                <div class="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center hover:-translate-y-2 transition-transform hover:shadow-md hover:shadow-red-600"">
                     <i class="fab fa-youtube text-3xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold">Platform</h3>
                     <p class="text-gray-300 mt-2">YouTube</p>

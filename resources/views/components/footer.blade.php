@@ -22,10 +22,10 @@
                 <li><a href="https://www.youtube.com/@nielsdegast" target="_blank"><i
                             class="fab fa-youtube text-2xl hover:text-red-600 transition-transform transform hover:-translate-y-1"></i></a>
                 </li>
-                <li><a href="https://www.tiktok.com/@nielsdegastyt" target="_blank"><i
+                <li><a href="https://www.tiktok.com/@nielsdegast" target="_blank"><i
                             class="fab fa-tiktok text-2xl hover:text-red-600 transition-transform transform hover:-translate-y-1"></i></a>
                 </li>
-                <li><a href="https://x.com/nielsdegastyt" target="_blank"><i
+                <li><a href="https://x.com/nielsdegast" target="_blank"><i
                             class="fab fa-x text-2xl hover:text-red-600 transition-transform transform hover:-translate-y-1"></i></a>
                 </li>
                 <li><a href="https://open.spotify.com/artist/6EyPJVn7KN6SIkhtiMY0fT" target="_blank"><i
@@ -49,7 +49,7 @@
     </div>
 
     <div class="footer-bottom text-center border-t border-gray-800 pt-4 text-gray-500">
-        <p>&copy; 2025 Niels de Gast | Alle rechten voorbehouden</p>
+        <p>&copy; {{ date('Y') }} Niels de Gast | Alle rechten voorbehouden</p>
         <p>Made by <a href="https://ndg-webdesign.net" target="_blank" class="text-red-600">NDG-Webdesign</a></p>
     </div>
 </div>
