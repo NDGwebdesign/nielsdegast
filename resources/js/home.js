@@ -69,6 +69,8 @@ async function loadLatestVideos() {
 
         container.innerHTML = '';
 
+        data.items = data.items.slice(0, 3);
+
         data.items.forEach(item => {
             const wrapper = document.createElement('div');
             wrapper.className =
