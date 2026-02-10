@@ -33,19 +33,19 @@
             <h2 class="text-3xl font-bold text-white text-center mb-8">Wat kun je verwachten?</h2>
             <div class="highlights-grid grid md:grid-cols-3 gap-8">
                 <div
-                    class="highlight-card bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center transition-transform transform hover:-translate-y-1">
+                    class="highlight-card bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center transition-transform transform hover:-translate-y-1 hover:shadow-lg hover:shadow-[#ff0000]">
                     <i class="fas fa-gamepad text-3xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold mb-2">Gaming Content</h3>
                     <p class="text-gray-300">Ik speel veel games maar vooral Minecraft</p>
                 </div>
                 <div
-                    class="highlight-card bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center transition-transform transform hover:-translate-y-1">
+                    class="highlight-card bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center transition-transform transform hover:-translate-y-1 hover:shadow-lg hover:shadow-[#a10000]">
                     <i class="fas fa-music text-3xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold mb-2">Muziek</h3>
                     <p class="text-gray-300">Originele muziek</p>
                 </div>
                 <div
-                    class="highlight-card bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center transition-transform transform hover:-translate-y-1">
+                    class="highlight-card bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl text-center transition-transform transform hover:-translate-y-1 hover:shadow-lg hover:shadow-[#ff0000]">
                     <i class="fas fa-video text-3xl text-red-600 mb-4"></i>
                     <h3 class="text-white text-xl font-semibold mb-2">Entertainment</h3>
                     <p class="text-gray-300">Vlogs en entertainment video's</p>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
 
-                <a href="?page=aboutme"
+                <a href="{{ route('aboutme') }}"
                     class="read-more cta-button inline-block bg-red-600 text-white px-8 py-4 rounded-full font-semibold transition-transform transform hover:-translate-y-1 hover:shadow-lg">
                     Lees meer over mij →
                 </a>
@@ -96,17 +96,17 @@
             <h2 class="text-3xl font-bold text-white text-center mb-8">Volg Mij</h2>
             <div class="social-grid grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                 <a href="https://discord.gg/PPVBhBemSf"
-                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#7289da] text-white hover:-translate-y-1 transition-transform">
+                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#7289da] text-white hover:-translate-y-1 transition-transform shadow-lg hover:shadow-[#7289da]">
                     <i class="fab fa-discord text-2xl"></i>
                     <span>Join Discord</span>
                 </a>
                 <a href="https://www.tiktok.com/@nielsdegastyt"
-                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-black text-white hover:-translate-y-1 transition-transform">
+                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-black text-white hover:-translate-y-1 transition-transform shadow-lg hover:shadow-black">
                     <i class="fab fa-tiktok text-2xl"></i>
                     <span>TikTok</span>
                 </a>
                 <a href="https://open.spotify.com/artist/6EyPJVn7KN6SIkhtiMY0fT"
-                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#1DB954] text-white hover:-translate-y-1 transition-transform">
+                    class="social-card flex items-center justify-center gap-4 p-6 rounded-lg bg-[#1DB954] text-white hover:-translate-y-1 transition-transform shadow-lg hover:shadow-[#1DB954]">
                     <i class="fab fa-spotify text-2xl"></i>
                     <span>Spotify</span>
                 </a>
